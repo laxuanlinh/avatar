@@ -1,0 +1,37 @@
+.image-container {
+    width: 500px;
+    height: 1000px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid black
+}
+
+.config-container {
+    width: 300px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.avatar-image {
+    transform: translate(-70px, 50px);
+    height: 350px;
+}
+
+.primary-text{
+    transform: translate(232px, 255px);
+    font-size: 120px;
+}
+
+.secondary-text{
+    transform: translate(240px, 290px);
+    font-size: 30px;
+}
+
+.year {
+    transform: translate(370px, 290px);
+}
